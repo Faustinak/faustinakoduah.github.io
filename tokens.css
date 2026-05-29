@@ -1,0 +1,78 @@
+/**
+ * Faustina portfolio — CSS variables derived from faustina-design-tokens.json
+ * Global primitives + semantic aliases used across the site.
+ */
+:root {
+  /* global.color */
+  --color-brand-yellow: #f5d98b;
+  --color-brand-yellow-dark: #e8c050;
+  --color-brand-yellow-footer: #fae9a0;
+  --color-interactive-blue: #3b6bc4;
+  --color-interactive-blue-light: #6b9de8;
+  --color-interactive-blue-dark: #1a3f8f;
+  --color-accent-pink: #f4a7c3;
+  --color-accent-pink-light: #fadadf;
+  --color-accent-pink-mid: #e97fb0;
+  --color-accent-lavender: #a8a0d8;
+  --color-accent-lavender-light: #d4cffb;
+  --color-neutral-black: #111111;
+  --color-neutral-dark: #222222;
+  --color-neutral-mid: #666666;
+  --color-neutral-light: #999999;
+  --color-neutral-white: #ffffff;
+  --color-neutral-surface: #f7f6f2;
+  --color-border-default: #eeeeee;
+
+  /* semantic */
+  --text-primary: var(--color-neutral-black);
+  --text-secondary: var(--color-neutral-mid);
+  --text-muted: var(--color-neutral-light);
+  --text-interactive: var(--color-interactive-blue);
+  --text-on-brand: var(--color-neutral-black);
+  --background-page: var(--color-neutral-white);
+  --background-surface: var(--color-neutral-surface);
+  --background-footer: var(--color-brand-yellow-footer);
+  --background-card-professional: var(--color-interactive-blue);
+  --background-card-creative: var(--color-accent-pink-mid);
+
+  /* typography */
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-size-xs: 0.625rem;
+  --font-size-sm: 0.6875rem;
+  --font-size-base: 0.8125rem;
+  --font-size-md: 0.875rem;
+  --font-size-lg: 1rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.75rem;
+  --font-size-3xl: clamp(2rem, 4vw, 2.25rem);
+  --font-size-display: clamp(2.25rem, 5vw, 2.5rem);
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+  --letter-spacing-wide: 0.08em;
+  --letter-spacing-wider: 0.15em;
+
+  /* spacing (px → rem, 16 base) */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 3rem;
+  --space-2xl: 5rem;
+
+  /* radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* homepage accents (mockup) — TuneFuse footer mint not in JSON; kept pastel */
+  --color-card-mint: #c5e8d5;
+  --color-hero-coral: #e895a8;
+  --color-hero-violet: #7c6fbf;
+  --color-rams-blue: #9ec5f2;
+}
